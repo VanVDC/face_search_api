@@ -40,6 +40,7 @@ app.get("/profile/:id", (req, res) => {
 app.put("/image", (req, res) => {
   image.handleImage(req, res, db);
 });
+
 app.post("/imageurl", (req, res) => {
   image.handleApiCall(req, res);
 });
