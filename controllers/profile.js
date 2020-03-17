@@ -3,7 +3,7 @@ const handleProfile = (req, res, db) => {
   db.select("*")
     .from("users")
     .where({
-      id: id
+      id
     })
     .then(user => {
       if (user.length) {
@@ -16,5 +16,5 @@ const handleProfile = (req, res, db) => {
 };
 
 module.exports = {
-  handleProfile: handleProfile
+  handleProfile
 };
