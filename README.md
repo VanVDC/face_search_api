@@ -1,6 +1,6 @@
 # Face Search Backend
 
-A simple website using Clarifai AI to search for a face in an image.
+Creating a backend login,logout, register, and check Clarifai API.
 
 - [Client side](https://github.com/VanVDC/face_search)
 
